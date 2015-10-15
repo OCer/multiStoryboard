@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
     
+    // 创建item
     NSMutableArray *array = [[NSMutableArray alloc] initWithCapacity:3];
     
     for (int i = 1; i < 4; ++i)
@@ -31,6 +32,13 @@
     return;
 }
 
+/**
+ *  获取stroyboard的初始化控制器
+ *
+ *  @param stroyboard stroyboard的名字
+ *
+ *  @return 控制器
+ */
 - (UIViewController *)getViewController:(NSString *)stroyboard
 {
     return [[UIStoryboard storyboardWithName:stroyboard bundle:nil] instantiateInitialViewController];
@@ -47,15 +55,5 @@
     [segue perform];
 }
 */
- 
-/*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
 
 @end
