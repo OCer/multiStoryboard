@@ -36,6 +36,7 @@
     return [[UIStoryboard storyboardWithName:stroyboard bundle:nil] instantiateInitialViewController];
 }
 
+/*
 + (void)moveToStoryboard:(NSString*)stroyboard controller:(UIViewController*)controller {
     UINavigationController *destination = [[UIStoryboard storyboardWithName:stroyboard bundle:nil] instantiateInitialViewController];
     UIStoryboardSegue *segue = [UIStoryboardSegue segueWithIdentifier:stroyboard source:controller destination:destination performHandler:^(void) {
@@ -45,7 +46,8 @@
     [controller prepareForSegue:segue sender:self];
     [segue perform];
 }
-
+*/
+ 
 /*
  #pragma mark - Navigation
  
