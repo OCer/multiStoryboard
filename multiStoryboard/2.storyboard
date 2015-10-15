@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1112" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="jZ0-NK-SwI">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--Second-->
+        <scene sceneID="CL5-G3-5LL">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bss-k5-CKw" sceneMemberID="firstResponder"/>
+                <viewController id="jZ0-NK-SwI" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PfQ-hG-wnz"/>
+                        <viewControllerLayoutGuide type="bottom" id="5lk-uJ-YGF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lld-wh-YYo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="3Vp-WM-hO6">
+                                <rect key="frame" x="55" y="263" width="209.5" height="41.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1nZ-5H-dcO">
+                                <rect key="frame" x="52" y="313" width="215.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1nZ-5H-dcO" firstAttribute="top" secondItem="3Vp-WM-hO6" secondAttribute="bottom" constant="8" symbolic="YES" id="6pM-f1-Duy"/>
+                            <constraint firstItem="1nZ-5H-dcO" firstAttribute="centerX" secondItem="3Vp-WM-hO6" secondAttribute="centerX" id="DJs-gL-Kzu"/>
+                            <constraint firstAttribute="centerX" secondItem="3Vp-WM-hO6" secondAttribute="centerX" id="gOq-fc-SO7"/>
+                            <constraint firstAttribute="centerY" secondItem="3Vp-WM-hO6" secondAttribute="centerY" id="qNi-zR-hBo"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Second" image="second" id="UP2-LN-2s4"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="652" y="312"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="second" width="30" height="30"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

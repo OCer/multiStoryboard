@@ -15,6 +15,10 @@
 		C6628EC51BCF504E0034B32D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6628EC41BCF504E0034B32D /* Images.xcassets */; };
 		C6628EC81BCF504E0034B32D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6628EC61BCF504E0034B32D /* LaunchScreen.xib */; };
 		C6628ED41BCF504F0034B32D /* multiStoryboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6628ED31BCF504F0034B32D /* multiStoryboardTests.m */; };
+		C6628EE21BCF512D0034B32D /* 1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6628EDD1BCF512D0034B32D /* 1.storyboard */; };
+		C6628EE31BCF512D0034B32D /* 2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6628EDE1BCF512D0034B32D /* 2.storyboard */; };
+		C6628EE41BCF512D0034B32D /* 3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6628EDF1BCF512D0034B32D /* 3.storyboard */; };
+		C6628EE51BCF512D0034B32D /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6628EE11BCF512D0034B32D /* MyTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,11 @@
 		C6628ECD1BCF504F0034B32D /* multiStoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multiStoryboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6628ED21BCF504F0034B32D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6628ED31BCF504F0034B32D /* multiStoryboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = multiStoryboardTests.m; sourceTree = "<group>"; };
+		C6628EDD1BCF512D0034B32D /* 1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 1.storyboard; sourceTree = "<group>"; };
+		C6628EDE1BCF512D0034B32D /* 2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 2.storyboard; sourceTree = "<group>"; };
+		C6628EDF1BCF512D0034B32D /* 3.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 3.storyboard; sourceTree = "<group>"; };
+		C6628EE01BCF512D0034B32D /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		C6628EE11BCF512D0034B32D /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +95,16 @@
 			children = (
 				C6628EB81BCF504E0034B32D /* AppDelegate.h */,
 				C6628EB91BCF504E0034B32D /* AppDelegate.m */,
+				C6628EE01BCF512D0034B32D /* MyTabBarController.h */,
+				C6628EE11BCF512D0034B32D /* MyTabBarController.m */,
 				C6628EBB1BCF504E0034B32D /* FirstViewController.h */,
 				C6628EBC1BCF504E0034B32D /* FirstViewController.m */,
 				C6628EBE1BCF504E0034B32D /* SecondViewController.h */,
 				C6628EBF1BCF504E0034B32D /* SecondViewController.m */,
 				C6628EC11BCF504E0034B32D /* Main.storyboard */,
+				C6628EDD1BCF512D0034B32D /* 1.storyboard */,
+				C6628EDE1BCF512D0034B32D /* 2.storyboard */,
+				C6628EDF1BCF512D0034B32D /* 3.storyboard */,
 				C6628EC41BCF504E0034B32D /* Images.xcassets */,
 				C6628EC61BCF504E0034B32D /* LaunchScreen.xib */,
 				C6628EB41BCF504E0034B32D /* Supporting Files */,
@@ -204,9 +218,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6628EE41BCF512D0034B32D /* 3.storyboard in Resources */,
+				C6628EE21BCF512D0034B32D /* 1.storyboard in Resources */,
 				C6628EC31BCF504E0034B32D /* Main.storyboard in Resources */,
 				C6628EC81BCF504E0034B32D /* LaunchScreen.xib in Resources */,
 				C6628EC51BCF504E0034B32D /* Images.xcassets in Resources */,
+				C6628EE31BCF512D0034B32D /* 2.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +244,7 @@
 				C6628EC01BCF504E0034B32D /* SecondViewController.m in Sources */,
 				C6628EBA1BCF504E0034B32D /* AppDelegate.m in Sources */,
 				C6628EBD1BCF504E0034B32D /* FirstViewController.m in Sources */,
+				C6628EE51BCF512D0034B32D /* MyTabBarController.m in Sources */,
 				C6628EB71BCF504E0034B32D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
